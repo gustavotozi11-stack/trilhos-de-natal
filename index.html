@@ -1,0 +1,820 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trilhos de Crochê de Natal — 20 Receitas Completas</title>
+<meta name="description" content="20 receitas completas de trilhos de mesa de Natal em crochê, com gráficos e explicação ponto a ponto, do iniciante ao avançado.">
+<meta property="og:title" content="Trilhos de Crochê de Natal — 20 Receitas Completas">
+<meta property="og:description" content="20 receitas completas de trilhos de mesa de Natal em crochê, com gráficos e explicação ponto a ponto, do iniciante ao avançado.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="#OG_IMAGE_PLACEHOLDER">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="#OG_IMAGE_PLACEHOLDER">
+<link rel="preload" href="fonts/Montserrat-latin.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="fonts/Playfair-latin.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" as="image" href="images/mockup-trilhos-natalinos-720.webp" imagesrcset="images/mockup-trilhos-natalinos-480.webp 480w, images/mockup-trilhos-natalinos-720.webp 720w, images/mockup-trilhos-natalinos-1080.webp 1080w" imagesizes="(max-width: 640px) calc(100vw - 32px), 600px" fetchpriority="high">
+<style>
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400 900;font-display:swap;src:url(fonts/Montserrat-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400 900;font-display:swap;src:url(fonts/Montserrat-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:900;font-display:swap;src:url(fonts/Playfair-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:900;font-display:swap;src:url(fonts/Playfair-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+html{scroll-behavior:smooth;overflow-x:hidden}
+*{margin:0;padding:0;box-sizing:border-box}
+
+:root{
+  --fundo:#F7F0E4;
+  --fundo-alt:#EFE3D0;
+  --escuro:#2B211A;
+  --verde:#39B574;
+  --verde-escuro:#2A9460;
+  --marrom:#9C5A66;
+  --marrom-titulo:#2B211A;
+  --texto:#241C15;
+  --texto-sub:#6B5A48;
+  --borda:#DFCBB0;
+  --vermelho:#C0392B;
+  --rosa:#9C5A66;
+  --laranja:#C99A4E;
+  --claro-forte:#F3E3C8;
+  --claro-medio:#E0CFB4;
+  --claro-fraco:#B9A78C;
+}
+
+body{font-family:'Montserrat',sans-serif;background-color:var(--fundo);color:var(--texto);overflow-x:hidden}
+.container{max-width:900px;margin:0 auto;padding:0 20px}
+
+/* TOP BAR */
+.top-bar{background-color:var(--vermelho);color:#fff;text-align:center;padding:10px 20px;font-size:.82rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+
+/* HERO */
+.hero-section{background:var(--escuro);padding:16px 18px 32px;text-align:center}
+.collection-badge{display:inline-block;background:var(--verde-escuro);color:#fff;font-size:.72rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:6px 20px;border-radius:30px;margin-bottom:10px;animation:badge-pulse 2.5s ease-in-out infinite}
+@keyframes badge-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+.headline{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.15rem,5.2vw,2.3rem);font-weight:900;text-transform:uppercase;color:#fff;line-height:1.16;letter-spacing:-.2px;margin-bottom:10px;max-width:24ch;margin-left:auto;margin-right:auto;text-wrap:balance}
+.headline .destaque{color:var(--laranja)}
+.hero-kicker{color:var(--claro-medio);font-weight:400;font-size:clamp(.95rem,3.8vw,1.05rem);margin:6px 0 0}
+.image-wrapper{margin:12px auto 0;max-width:600px}
+.hero-badges{margin:14px auto 0;max-width:650px}
+.hero-badges-text{color:var(--claro-medio);font-size:.95rem;margin-bottom:10px;line-height:1.6}
+.hero-badges-text strong{color:var(--laranja)}
+.hero-badges-pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.hero-pill{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:var(--claro-forte);font-size:.78rem;font-weight:700;padding:6px 16px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.subheadline{color:var(--claro-medio);font-size:1.05rem;line-height:1.7;max-width:700px;margin:12px auto 14px}
+.subheadline strong{color:var(--claro-forte)}
+.hero-section .cta-container{margin-top:20px}
+
+/* CTA */
+.cta-container{text-align:center;margin-top:24px}
+.cta-button{display:inline-block;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--verde) 0%,var(--verde-escuro) 100%);color:#fff;font-size:1.05rem;font-weight:800;text-transform:uppercase;letter-spacing:1px;padding:18px 42px;border-radius:6px;text-decoration:none;animation:cta-pulse 2.2s ease-in-out infinite;box-shadow:0 4px 18px rgba(57,181,116,.35);transition:transform .2s,box-shadow .2s}
+.cta-button::after{content:'';position:absolute;top:0;left:-75%;width:50%;height:100%;background:linear-gradient(120deg,transparent 0%,rgba(255,255,255,.28) 50%,transparent 100%);animation:cta-shimmer 2.2s ease-in-out infinite;pointer-events:none}
+.cta-button:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 10px 32px rgba(57,181,116,.55);animation-play-state:paused}
+.cta-button:hover::after{animation-play-state:paused}
+@keyframes cta-pulse{0%{transform:scale(1);box-shadow:0 4px 18px rgba(57,181,116,.35)}50%{transform:scale(1.035);box-shadow:0 8px 30px rgba(57,181,116,.6)}100%{transform:scale(1);box-shadow:0 4px 18px rgba(57,181,116,.35)}}
+@keyframes cta-shimmer{0%{left:-75%}60%{left:130%}100%{left:130%}}
+.cta-microcopy{margin-top:10px;font-size:.68rem;letter-spacing:.45px;font-weight:600;color:var(--claro-fraco)}
+
+/* TÍTULOS */
+.section-title{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.25rem,5.2vw,1.7rem);font-weight:900;text-transform:uppercase;color:var(--marrom-titulo);letter-spacing:.3px;line-height:1.22}
+.block-title{font-family:'Playfair Display',Georgia,serif;text-align:center;font-size:clamp(1.05rem,4.2vw,1.3rem);font-weight:900;text-transform:uppercase;color:var(--marrom-titulo);margin-top:28px;line-height:1.3}
+.block-text{text-align:center;max-width:640px;margin:10px auto 0;color:var(--texto-sub);font-size:1rem;line-height:1.7}
+
+/* CARROSSEL */
+.carousel-section{background:var(--fundo-alt);padding:40px 0;overflow:hidden}
+.carousel-header{text-align:center;margin-bottom:20px;padding:0 20px}
+.carousel-container{width:100%;overflow-x:auto;overflow-y:hidden;position:relative;scrollbar-width:none;overscroll-behavior-x:contain;scroll-behavior:auto;touch-action:pan-x pan-y pinch-zoom}
+.carousel-container::-webkit-scrollbar{display:none}
+.carousel-track{display:flex;gap:16px;padding:6px 0;width:max-content}
+.carousel-item{flex-shrink:0;border-radius:10px;overflow:hidden;background:var(--borda);border:1px solid var(--borda)}
+.carousel-item img{width:100%;height:100%;object-fit:cover}
+.carousel-item--vertical{width:280px;height:280px;background:#fff}
+.carousel-item--vertical img{object-fit:cover}
+
+/* RESULTADOS */
+.testimonials-section{background:#FFFDF9;padding:40px 0;overflow:hidden}
+
+/* PASSO A PASSO */
+.steps-section{background:var(--fundo-alt);padding:40px 0}
+.steps-list{display:flex;flex-direction:column;gap:14px;margin-top:34px}
+.step-card{display:flex;align-items:flex-start;gap:16px;background:#fff;border:1px solid var(--borda);border-left:4px solid var(--rosa);border-radius:12px;padding:18px 20px}
+.step-number{flex-shrink:0;width:38px;height:38px;border-radius:50%;background:var(--rosa);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center}
+.step-text h3{font-size:1rem;font-weight:900;text-transform:uppercase;color:var(--marrom-titulo);letter-spacing:.5px}
+.step-text p{margin-top:6px;color:var(--texto-sub);font-size:.93rem;line-height:1.6}
+.steps-footer{text-align:center;margin-top:26px;font-weight:700;color:var(--rosa)}
+
+/* FEITO PARA QUEM */
+.deliverables-section{background:var(--fundo-alt);padding:44px 18px;text-align:center}
+.deliverables-section--compact{padding:50px 16px;background:#FFFDF9}
+.ideal-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;max-width:560px;margin:24px auto 0}
+.ideal-card{background:#fff;border:1px solid var(--borda);border-radius:12px;padding:14px 12px;text-align:center;box-shadow:0 2px 8px rgba(43,33,26,.05)}
+.ideal-card .ideal-emoji{display:block;font-size:1.6rem;line-height:1;margin-bottom:8px}
+.ideal-card p{font-size:.82rem;font-weight:700;color:var(--marrom-titulo);line-height:1.35;margin:0}
+
+/* ENTREGÁVEIS */
+.deliverables-box{background:var(--escuro);border-radius:16px;padding:48px 40px;max-width:700px;margin:36px auto 0}
+.deliverables-tag{display:inline-block;background:var(--verde);color:#fff;font-size:.72rem;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:6px 20px;border-radius:20px;margin-bottom:28px}
+.deliverables-list{list-style:none;text-align:left;display:flex;flex-direction:column;gap:14px}
+.deliverables-list li{display:flex;align-items:flex-start;gap:12px;color:var(--claro-medio);font-size:.95rem;font-weight:600;line-height:1.5}
+.check-icon{color:var(--verde);flex-shrink:0;margin-top:2px}
+.deliverables-more{text-align:center;margin-top:28px;font-size:1.25rem;font-weight:800;color:var(--claro-forte);text-transform:uppercase;letter-spacing:1px}
+.deliverables-footer{text-align:center;margin-top:10px;font-size:.95rem;color:var(--claro-medio);font-weight:600}
+.bonus-transition{margin-top:36px;text-align:center}
+.bonus-transition h3{font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:900;color:var(--marrom-titulo);text-transform:uppercase;line-height:1.4}
+.bonus-transition h3 strong{color:var(--marrom)}
+
+/* BÔNUS */
+.bonus-section{background:#FFFDF9;padding:32px 18px 48px}
+.bonus-tag-wrap{text-align:center;margin:0 0 16px}
+.bonus-tag{display:inline-block;background:linear-gradient(135deg,var(--verde),var(--verde-escuro));color:#fff;font-size:.82rem;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:8px 24px;border-radius:30px}
+.bonus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;max-width:760px;margin:0 auto}
+.bonus-card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid var(--borda);display:flex;flex-direction:column;transition:transform .2s}
+.bonus-card:hover{transform:translateY(-3px)}
+.bonus-img-placeholder{background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;aspect-ratio:4/3}
+.bonus-img{width:100%;height:100%;object-fit:contain;padding:8px;display:block}
+.bonus-content{padding:20px;flex:1;display:flex;flex-direction:column;gap:8px}
+.bonus-number{align-self:flex-start;display:inline-flex;align-items:center;gap:4px;background:var(--rosa);color:#fff;padding:5px 11px;border-radius:999px;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;box-shadow:0 3px 8px rgba(156,90,102,.28)}
+.bonus-title{font-size:.88rem;font-weight:800;color:var(--marrom-titulo);text-transform:uppercase;line-height:1.35}
+.bonus-desc{font-size:.82rem;color:var(--texto-sub);line-height:1.6;flex:1}
+.bonus-value{font-size:.8rem;color:var(--texto-sub);margin-top:4px;padding-top:10px;border-top:1px dashed var(--borda)}
+.riscado{text-decoration:line-through;color:#A0937F;margin-right:6px}
+.gratis{color:var(--verde-escuro);font-size:.95rem;font-weight:800}
+
+/* PLANOS */
+.plans-section{padding:64px 0;background:var(--fundo-alt)}
+.plans-header{text-align:center;padding:0 20px 32px}
+.promo-tag-red{display:inline-block;background:var(--vermelho);color:#fff;padding:8px 22px;border-radius:50px;font-size:.78rem;font-weight:700;letter-spacing:.4px;margin-bottom:20px}
+.plans-divider{border:none;border-top:2px solid var(--borda);max-width:200px;margin:20px auto 0}
+.plans-container{max-width:900px}
+.plans-grid{display:grid;grid-template-columns:minmax(0,1fr);max-width:500px;margin-inline:auto;gap:24px;align-items:start}
+.plan-card{border-radius:20px;padding:32px 24px;position:relative;box-shadow:0 4px 16px rgba(43,33,26,.10)}
+.plan-basic{background:#fff;border:1px solid var(--borda)}
+.plan-complete{background:#fff;border:2px solid var(--verde)}
+.plan-title{font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;font-weight:900;text-transform:uppercase;color:var(--marrom-titulo);text-align:center;margin-bottom:20px}
+.plan-img-frame{background:transparent;border:none;padding:0;margin-bottom:16px;box-shadow:none}
+.plan-img{width:100%;border-radius:10px;display:block;box-shadow:none}
+.plan-features{display:flex;flex-direction:column;gap:10px;margin-bottom:26px;list-style:none}
+.plan-features li{display:flex;align-items:flex-start;gap:8px;font-size:.83rem;font-weight:600;color:var(--texto);line-height:1.4;padding-bottom:10px;border-bottom:1px solid var(--borda)}
+.plan-features li:last-child{border-bottom:none;padding-bottom:0}
+.plan-features--no-dividers li{border-bottom:none}
+.check-icon-sm{min-width:20px;color:var(--verde-escuro);margin-top:2px}
+.x-icon-sm{min-width:20px;color:var(--vermelho);margin-top:2px}
+.plan-features .feature-unavailable{color:var(--texto-sub)}
+.feature-unavailable span{text-decoration:line-through;text-decoration-thickness:1.5px}
+.gift-item{color:var(--texto)!important;font-size:.8rem!important}
+.plan-price-box{background:transparent;padding:6px 0;text-align:center;margin:10px 0 12px;border:none}
+.price-old{display:block;font-size:1.05rem;font-weight:800;color:var(--vermelho);text-decoration:line-through;margin-bottom:0}
+.price-today{font-size:.95rem;font-weight:800;color:var(--texto);margin-bottom:4px}
+.price-wrap{position:relative;display:inline-block;margin:4px 0}
+.price-wrap--complete{padding:8px 20px;margin:2px 0}
+.price-current{font-size:2.8rem;font-weight:900;color:var(--verde-escuro);position:relative;z-index:1;letter-spacing:-1px;margin:0;line-height:1;white-space:nowrap}
+.price-installments{display:block;margin-top:6px;font-size:.95rem;color:var(--texto-sub)}
+.plan-btn{display:block;width:100%;text-align:center;padding:16px 12px;border-radius:10px;font-size:.87rem;font-weight:800;text-transform:uppercase;letter-spacing:.3px;transition:transform .18s,opacity .18s;text-decoration:none}
+.plan-btn:hover{transform:translateY(-2px);opacity:.92}
+.btn-basic{background:var(--fundo-alt);color:var(--verde-escuro);border:2px solid var(--verde-escuro)}
+.btn-complete{position:relative;overflow:hidden;background:var(--verde);color:#fff;border:none;box-shadow:0 4px 12px rgba(43,33,26,.12);animation:pulse-button-cta 2s infinite}
+.btn-complete::after{content:'';position:absolute;top:0;left:-75%;width:50%;height:100%;background:linear-gradient(120deg,transparent 0%,rgba(255,255,255,.25) 50%,transparent 100%);animation:cta-shimmer 2s ease-in-out infinite;pointer-events:none}
+.btn-complete:hover{animation-play-state:paused;transform:scale(1.02) translateY(-2px);background:var(--verde-escuro)}
+@keyframes pulse-button-cta{0%{transform:scale(1);box-shadow:0 0 0 0 rgba(57,181,116,.6)}70%{transform:scale(1.04);box-shadow:0 0 0 12px rgba(57,181,116,0)}100%{transform:scale(1);box-shadow:0 0 0 0 rgba(57,181,116,0)}}
+.tag-bestseller{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--laranja);color:#2B211A;padding:6px 22px;border-radius:50px;font-size:.78rem;font-weight:800;white-space:nowrap;box-shadow:0 4px 14px rgba(43,33,26,.18)}
+.tag-2x{background:rgba(42,148,96,.12);color:var(--verde-escuro);text-align:center;padding:8px 12px;border-radius:8px;font-size:.78rem;font-weight:700;margin-bottom:16px;border:1px solid rgba(42,148,96,.30)}
+.plan-popular-alert{text-align:center;margin-top:22px;padding:18px 16px;background:#FBF3E2;border-radius:12px;border:1.5px dashed rgba(201,154,78,.7)}
+.plan-popular-alert p{font-size:.85rem;color:#8A6428;font-weight:800;margin-bottom:14px}
+.arrow-down-circle{display:flex;justify-content:center;align-items:center;background:var(--laranja);color:#fff;width:34px;height:34px;border-radius:50%;margin:0 auto;animation:bounce-arrow .7s ease-in-out infinite alternate;box-shadow:0 4px 10px rgba(201,154,78,.35)}
+@keyframes bounce-arrow{from{transform:translateY(-4px)}to{transform:translateY(4px)}}
+.complete-price-notice{margin-top:16px;padding:4px 8px 0;text-align:center;color:var(--marrom-titulo)}
+.complete-price-notice p{margin:0;font-size:.82rem;line-height:1.45}
+.complete-price-notice-title{margin-bottom:12px!important;font-weight:800}
+.complete-price-notice strong{color:#8A6428;font-weight:900}
+.animated-circle{position:absolute;width:100%;height:100%;top:0;left:0;z-index:0;overflow:visible;animation:wobble-circle 1.8s ease-in-out infinite alternate}
+.circle-path,.circle-path-delay{stroke-dasharray:1;stroke-dashoffset:1}
+.draw-active .circle-path{animation:drawCircle 1.5s ease-out forwards}
+.draw-active .circle-path-delay{animation:drawCircle 1.5s ease-out forwards;animation-delay:.3s}
+@keyframes drawCircle{to{stroke-dashoffset:0}}
+@keyframes wobble-circle{0%{transform:scale(1) rotate(0deg);opacity:.9}100%{transform:scale(1.06,.96) rotate(2deg);opacity:1}}
+
+/* GARANTIA */
+.guarantee-section{background:var(--escuro);padding:70px 20px}
+.guarantee-container{display:flex;align-items:center;gap:48px;max-width:800px}
+.guarantee-img-col{flex-shrink:0}
+.guarantee-seal{width:160px;height:auto;display:block;margin:0 auto}
+.guarantee-title{font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-weight:900;color:var(--claro-forte);text-transform:uppercase;margin-bottom:16px;line-height:1.3}
+.guarantee-content p{font-size:.92rem;color:var(--claro-medio);line-height:1.7;margin-bottom:14px}
+.guarantee-content strong{color:var(--claro-forte)}
+.guarantee-risk{font-size:.88rem;font-weight:700;color:var(--verde)!important;text-transform:uppercase;letter-spacing:.5px}
+
+/* FAQ */
+.faq-section{background:var(--fundo-alt);padding:72px 20px}
+.faq-title{text-align:center;margin-bottom:40px;color:var(--marrom-titulo)}
+.faq-list{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq-item{border:1px solid var(--borda);border-radius:10px;overflow:hidden;background:#fff}
+.faq-question{width:100%;background:none;border:none;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;font-family:'Montserrat',sans-serif;font-size:.9rem;font-weight:700;color:var(--marrom-titulo);cursor:pointer;transition:background .2s}
+.faq-question:hover{background:var(--fundo-alt)}
+.faq-icon{font-size:1.3rem;font-weight:400;color:var(--marrom);flex-shrink:0;transition:transform .25s}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-answer{max-height:0;visibility:hidden;overflow:hidden;transition:max-height .35s ease,padding .25s ease,visibility 0s .35s;padding:0 20px}
+.faq-item.open .faq-answer{max-height:300px;visibility:visible;padding:0 20px 18px;transition:max-height .35s ease,padding .25s ease,visibility 0s}
+.faq-answer p{font-size:.86rem;color:var(--texto-sub);line-height:1.7}
+
+/* FOOTER */
+.site-footer{background:#1A130E;padding:40px 20px;text-align:center}
+.footer-container p{font-size:.78rem;color:#9C8F7C;margin-bottom:10px}
+.footer-disclaimer{line-height:1.7;max-width:700px;margin:0 auto}
+
+/* IMAGENS */
+img{-webkit-user-drag:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;max-width:100%}
+.kit-product-img{display:block;width:100%;height:auto;object-fit:contain;border:0;border-radius:0;box-shadow:none;background:transparent}
+.kit-product-img--hero{max-width:600px;margin:0 auto}
+.kit-product-img--deliverables{max-width:460px;margin:0 auto 28px}
+.carousel-item,.bonus-card,.step-card{max-width:100%}
+
+.steps-section,.deliverables-section,.bonus-section,.plans-section,.guarantee-section,.faq-section,.site-footer{content-visibility:auto;contain-intrinsic-size:auto 800px}
+
+/* RESPONSIVO */
+@media (max-width:640px){
+  .top-bar{font-size:.7rem;padding:8px 12px}
+  .hero-section{padding:12px 12px 28px}
+  .collection-badge{margin-bottom:10px;padding:5px 16px}
+  .headline{font-size:clamp(1.1rem,5.6vw,1.6rem);margin-bottom:6px;max-width:100%;line-height:1.14}
+  .hero-kicker{margin-top:6px}
+  .image-wrapper{margin:10px auto 0;max-width:min(76vw,290px)}
+  .kit-product-img--hero{max-width:290px}
+  .hero-badges{margin-top:9px}
+  .hero-badges-text{font-size:.88rem;line-height:1.4;margin-bottom:8px}
+  .hero-badges-pills{display:grid;grid-template-columns:1fr;gap:6px;max-width:250px;margin:0 auto}
+  .hero-pill{padding:7px 10px;font-size:.72rem;letter-spacing:.2px;white-space:nowrap}
+  .subheadline{font-size:.94rem;line-height:1.4;margin:12px auto 10px}
+  .hero-section .cta-container{margin-top:16px}
+  .cta-button{width:100%;max-width:340px;padding:15px 18px;font-size:.88rem;letter-spacing:.5px}
+  .hero-section .cta-microcopy{margin-top:8px;font-size:.62rem;letter-spacing:.25px}
+  .container{padding:0 16px}
+  .carousel-section,.testimonials-section{padding:28px 0}
+  .carousel-header{margin-bottom:16px;padding:0 16px}
+  .carousel-item--vertical{width:190px;height:190px}
+  .carousel-track{gap:10px}
+  .steps-section{padding:24px 0}
+  .steps-list{gap:8px;margin-top:14px}
+  .step-card{gap:10px;padding:10px 12px;border-left-width:3px;border-radius:9px}
+  .step-number{width:28px;height:28px;font-size:.82rem}
+  .step-text h3{font-size:.84rem;line-height:1.15}
+  .step-text p{margin-top:3px;font-size:.78rem;line-height:1.35}
+  .steps-footer{margin-top:14px;font-size:.82rem;line-height:1.3}
+  .deliverables-section{padding:30px 16px}
+  .deliverables-section--compact{padding:28px 16px}
+  .ideal-grid{margin-top:16px}
+  .deliverables-box{padding:24px 16px}
+  .kit-product-img--deliverables{margin-bottom:18px}
+  .deliverables-more{margin-top:20px}
+  .block-title{margin-top:18px}
+  .bonus-transition{margin-top:22px}
+  .bonus-transition h3{font-size:1.05rem;line-height:1.35}
+  .bonus-section{padding:26px 16px 24px}
+  .bonus-tag-wrap{margin-bottom:12px}
+  .bonus-grid{grid-template-columns:1fr;gap:12px}
+  .bonus-content{padding:14px;gap:6px}
+  .bonus-desc{line-height:1.45}
+  .plans-section{padding:28px 0 34px}
+  .plans-header{padding:0 16px 18px}
+  .promo-tag-red{padding:7px 16px;margin-bottom:12px;font-size:.7rem;line-height:1.25}
+  .plans-divider{max-width:160px;margin-top:12px}
+  .plans-grid{grid-template-columns:1fr;gap:16px}
+  .plan-card{padding:24px 16px;border-radius:16px}
+  .plan-title{margin-bottom:14px}
+  .tag-2x{padding:7px 8px;font-size:.7rem;line-height:1.25}
+  .plan-basic .plan-popular-alert{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:14px;padding:9px 11px;border-radius:9px;text-align:left}
+  .plan-basic .plan-popular-alert p{margin:0;font-size:.72rem;line-height:1.3}
+  .plan-basic .arrow-down-circle{width:26px;height:26px;margin:0;flex:0 0 26px}
+  .plan-basic .arrow-down-circle svg{width:14px;height:14px}
+  .guarantee-section{padding:34px 16px}
+  .guarantee-container{flex-direction:column;text-align:center;gap:18px}
+  .guarantee-img-col{margin-bottom:0}
+  .guarantee-seal{width:120px;height:auto}
+  .guarantee-title{margin-bottom:10px}
+  .guarantee-content p{line-height:1.55;margin-bottom:10px}
+  .faq-section{padding:34px 16px}
+  .faq-title{margin-bottom:22px}
+  .faq-list{gap:8px}
+  .faq-question{padding:14px 15px}
+  .faq-item.open .faq-answer{padding:0 15px 14px}
+  .faq-answer{padding-inline:15px}
+  .faq-answer p{line-height:1.55}
+  .site-footer{padding:28px 16px}
+}
+@media (max-width:480px){
+  .ideal-grid{grid-template-columns:1fr;gap:10px}
+  .ideal-card{display:flex;align-items:center;gap:12px;text-align:left;padding:12px 14px}
+  .ideal-card .ideal-emoji{margin-bottom:0;font-size:1.4rem}
+  .ideal-card p{font-size:.9rem}
+}
+@media (max-width:360px){
+  .carousel-item--vertical{width:160px;height:160px}
+  .hero-section{padding:10px 10px 24px}
+  .image-wrapper{max-width:min(74vw,260px)}
+  .hero-pill{font-size:.64rem;padding-inline:6px}
+  .plan-basic .plan-popular-alert p{font-size:.68rem}
+  .cta-button{font-size:.8rem;padding:14px 12px}
+  .container{padding:0 12px}
+  .price-current{font-size:2.4rem}
+}
+</style>
+<script>window.pixelId = "6afe40a08321282e22ffe5d8";</script>
+<script src="https://cdn.utmify.com.br/scripts/pixel/pixel.js" async defer></script>
+<script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async defer></script>
+</head>
+<body>
+
+<!-- ===== 1. TOP BAR ===== -->
+<div class="top-bar">
+  <span>⚡ OFERTA ESPECIAL DISPONÍVEL APENAS HOJE: <span id="data-atual">18 DE NOVEMBRO</span></span>
+</div>
+
+<!-- ===== 2. HERO ===== -->
+<header class="hero-section">
+  <div class="container">
+    <div class="collection-badge"><span>MATERIAL EXCLUSIVO</span></div>
+
+    <h1 class="headline">
+      Aprenda a criar <span class="destaque">trilhos de mesa de Natal</span>
+      que todo mundo na ceia vai perguntar
+      <span class="destaque">onde você comprou</span>
+    </h1>
+
+    <p class="hero-kicker">20 MODELOS PRONTOS PARA VOCÊ COMEÇAR SEU TRILHO AINDA HOJE E TERMINAR BEM ANTES DA CEIA!</p>
+
+    <div class="image-wrapper">
+      <img src="images/mockup-trilhos-natalinos-1080.webp" srcset="images/mockup-trilhos-natalinos-480.webp 480w, images/mockup-trilhos-natalinos-720.webp 720w, images/mockup-trilhos-natalinos-1080.webp 1080w" sizes="(max-width: 640px) calc(100vw - 32px), 600px" alt="Coleção completa com 20 receitas de trilhos de crochê de Natal e os quatro bônus" class="kit-product-img kit-product-img--hero" width="1080" height="1080" loading="eager" fetchpriority="high" decoding="async" draggable="false">
+    </div>
+
+    <div class="hero-badges">
+      <p class="hero-badges-text">
+        Faça trilhos de mesa natalinos com flores, estrelas, azevinhos e ramos de pinheiro em crochê, com acabamento de peça de loja, <strong>usando pontos simples.</strong>
+      </p>
+      <div class="hero-badges-pills">
+        <span class="hero-pill">🧶 Escolha o modelo</span>
+        <span class="hero-pill">🎄 Tutorial passo a passo</span>
+        <span class="hero-pill">⭐ Encante a família</span>
+      </div>
+    </div>
+
+    <div class="cta-container">
+      <a href="#planos" class="cta-button">QUERO FAZER MEUS TRILHOS DE NATAl</a>
+      <p class="cta-microcopy">ACESSO IMEDIATO • MATERIAL DIGITAL • RECEBA NO SEU WHATSAPP</p>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 3. CARROSSEL DOS KITS ===== -->
+<section class="carousel-section">
+  <div class="carousel-header">
+    <h2 class="section-title">VEJA POR DENTRO DA COLEÇÃO TRILHOS DE CROCHÊ DE NATAL</h2>
+  </div>
+
+  <div class="carousel-container" role="region" aria-label="Modelos de trilhos" tabindex="0">
+    <div class="carousel-track">
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho1.webp" srcset="images/trilho1-380.webp 380w, images/trilho1.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê com bicos-de-papagaio vermelhos sobre mesa rústica de Natal"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho2.webp" srcset="images/trilho2-380.webp 380w, images/trilho2.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Centro de mesa redondo de crochê com bico-de-papagaio e velas"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho3.webp" srcset="images/trilho3-380.webp 380w, images/trilho3.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê comprido com flores natalinas e flocos de neve na mesa da ceia"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho4.webp" srcset="images/trilho4-380.webp 380w, images/trilho4.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê em verde e vermelho visto de cima, com louça e talheres dourados"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho5.webp" srcset="images/trilho5-380.webp 380w, images/trilho5.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê em creme com borda vermelha e verde em mesa de varanda"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho6.webp" srcset="images/trilho6-380.webp 380w, images/trilho6.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê com casinha de gengibre e pinheirinhos na bancada da cozinha"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho7.webp" srcset="images/trilho7-380.webp 380w, images/trilho7.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê com vilarejo natalino sobre aparador decorado"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho8.webp" srcset="images/trilho8-380.webp 380w, images/trilho8.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê com flores vinho e douradas em mesa redonda de café"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho9.webp" srcset="images/trilho9-380.webp 380w, images/trilho9.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Mesa de ceia posta com trilho de crochê de flores vermelhas e folhas douradas"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho10.webp" srcset="images/trilho10-380.webp 380w, images/trilho10.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Trilho de crochê com casinhas e pinheiros em tons de creme sobre o móvel da sala"></div>
+      <!-- Clones para loop infinito -->
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho1.webp" srcset="images/trilho1-380.webp 380w, images/trilho1.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho2.webp" srcset="images/trilho2-380.webp 380w, images/trilho2.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho3.webp" srcset="images/trilho3-380.webp 380w, images/trilho3.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho4.webp" srcset="images/trilho4-380.webp 380w, images/trilho4.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho5.webp" srcset="images/trilho5-380.webp 380w, images/trilho5.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho6.webp" srcset="images/trilho6-380.webp 380w, images/trilho6.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho7.webp" srcset="images/trilho7-380.webp 380w, images/trilho7.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho8.webp" srcset="images/trilho8-380.webp 380w, images/trilho8.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho9.webp" srcset="images/trilho9-380.webp 380w, images/trilho9.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/trilho10.webp" srcset="images/trilho10-380.webp 380w, images/trilho10.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="block-text">São 20 receitas completas, com passo a passo para fazer cada trilho do começo ao fim.</p>
+  </div>
+</section>
+
+<!-- ===== 4. RESULTADOS ===== -->
+<section class="testimonials-section">
+  <div class="carousel-header">
+    <h2 class="section-title">A EXPERIÊNCIA DE QUEM JÁ FEZ</h2>
+    <p class="block-text">Linha, agulha e pontos simples. O resultado parece que saiu de uma vitrine de Natal.</p>
+  </div>
+
+  <div class="carousel-container" role="region" aria-label="Resultados em crochê" tabindex="0">
+    <div class="carousel-track track-reverse">
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa1.webp" srcset="images/pessoa1-380.webp 380w, images/pessoa1.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Artesã fazendo crochê de flores natalinas em um jardim de inverno"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa2.webp" srcset="images/pessoa2-380.webp 380w, images/pessoa2.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Mulher montando um trilho de crochê com casinhas natalinas na sala"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa3.webp" srcset="images/pessoa3-380.webp 380w, images/pessoa3.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Senhora unindo as peças do trilho de crochê sobre a mesa da ceia posta"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa4.webp" srcset="images/pessoa4-380.webp 380w, images/pessoa4.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Mulher fazendo crochê de um trilho natalino sentada na cama"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa5.webp" srcset="images/pessoa5-380.webp 380w, images/pessoa5.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Artesã escolhendo as linhas para as flores de crochê no ateliê"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa6.webp" srcset="images/pessoa6-380.webp 380w, images/pessoa6.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Mulher fazendo crochê de um trilho natalino na cozinha decorada"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa7.webp" srcset="images/pessoa7-380.webp 380w, images/pessoa7.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Artesã trabalhando em um trilho de crochê com casinhas à luz do abajur"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa8.webp" srcset="images/pessoa8-380.webp 380w, images/pessoa8.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Senhora fazendo crochê de bicos-de-papagaio sentada na poltrona"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa9.webp" srcset="images/pessoa9-380.webp 380w, images/pessoa9.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Mulher unindo flores de crochê para montar o trilho de Natal"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa10.webp" srcset="images/pessoa10-380.webp 380w, images/pessoa10.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="Artesã sorrindo enquanto faz crochê em frente à árvore de Natal"></div>
+      <!-- Clones para loop infinito -->
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa1.webp" srcset="images/pessoa1-380.webp 380w, images/pessoa1.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa2.webp" srcset="images/pessoa2-380.webp 380w, images/pessoa2.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa3.webp" srcset="images/pessoa3-380.webp 380w, images/pessoa3.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa4.webp" srcset="images/pessoa4-380.webp 380w, images/pessoa4.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa5.webp" srcset="images/pessoa5-380.webp 380w, images/pessoa5.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa6.webp" srcset="images/pessoa6-380.webp 380w, images/pessoa6.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa7.webp" srcset="images/pessoa7-380.webp 380w, images/pessoa7.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa8.webp" srcset="images/pessoa8-380.webp 380w, images/pessoa8.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa9.webp" srcset="images/pessoa9-380.webp 380w, images/pessoa9.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+      <div class="carousel-item carousel-item--vertical"><img width="280" height="280" draggable="false" decoding="async" loading="lazy" src="images/pessoa10.webp" srcset="images/pessoa10-380.webp 380w, images/pessoa10.webp 560w" sizes="(max-width: 480px) 160px, (max-width: 640px) 190px, 280px" alt="" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="cta-container">
+      <a href="#planos" class="cta-button">QUERO AS 20 RECEITAS AGORA</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. PASSO A PASSO ===== -->
+<section class="steps-section">
+  <div class="container">
+    <h2 class="section-title" style="text-align:center">DA RECEITA AO TRILHO PRONTO EM POUCOS PASSOS</h2>
+
+    <div class="steps-list">
+      <div class="step-card">
+        <span class="step-number">1</span>
+        <div class="step-text"><h3>ESCOLHA</h3><p>Escolha um dos 20 modelos natalinos da coleção.</p></div>
+      </div>
+      <div class="step-card">
+        <span class="step-number">2</span>
+        <div class="step-text"><h3>SEPARE AS LINHAS</h3><p>Separe as cores sugeridas na receita, com a agulha indicada para cada modelo.</p></div>
+      </div>
+      <div class="step-card">
+        <span class="step-number">3</span>
+        <div class="step-text"><h3>FAÇA AS PEÇAS</h3><p>Faça as flores, folhas, estrelas e raminhos seguindo o gráfico e a explicação ponto a ponto.</p></div>
+      </div>
+      <div class="step-card">
+        <span class="step-number">4</span>
+        <div class="step-text"><h3>JUnte</h3><p>Junte as peças na ordem mostrada no esquema de montagem, uma ao lado da outra.</p></div>
+      </div>
+      <div class="step-card">
+        <span class="step-number">5</span>
+        <div class="step-text"><h3>ESTENDA</h3><p>Estenda o trilho sobre a mesa da ceia e veja seus novelos virarem a peça que todo mundo vai fotografar.</p></div>
+      </div>
+    </div>
+
+    <p class="steps-footer">Sem ser expert, sem complicação, sem pagar caro em decoração de Natal de loja.</p>
+  </div>
+</section>
+
+<!-- ===== 6. FEITO PARA QUEM ===== -->
+<section class="deliverables-section deliverables-section--compact">
+  <div class="container">
+    <h2 class="section-title">FEITO PARA QUEM...</h2>
+
+    <div class="ideal-grid">
+      <div class="ideal-card"><span class="ideal-emoji">🧶</span><p>Ama crochê e quer uma mesa de Natal igual de novela</p></div>
+      <div class="ideal-card"><span class="ideal-emoji">🎄</span><p>Quer a mesa da ceia linda sem gastar uma fortuna em loja de decoração</p></div>
+      <div class="ideal-card"><span class="ideal-emoji">🌟</span><p>Está começando e quer projetos fáceis e que realmente funcionam</p></div>
+      <div class="ideal-card"><span class="ideal-emoji">🎁</span><p>Quer presentear a mãe, a sogra ou a amiga com algo feito à mão neste Natal</p></div>
+      <div class="ideal-card"><span class="ideal-emoji">📦</span><p>Quer fazer trilhos para vender nas feiras de Natal e no Instagram</p></div>
+      <div class="ideal-card"><span class="ideal-emoji">☕</span><p>Só quer sentar com a agulha e relaxar no fim do dia</p></div>
+    </div>
+
+    <h3 class="block-title">VOCÊ NÃO PRECISA SER EXPERIENTE EM CROCHÊ PARA COMEÇAR</h3>
+
+    <div class="cta-container">
+      <a href="#planos" class="cta-button">QUERO RECEBER AS RECEITAS</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. TUDO O QUE VOCÊ RECEBE ===== -->
+<section class="deliverables-section">
+  <div class="container">
+    <h2 class="section-title">TUDO O QUE VOCÊ VAI RECEBER</h2>
+
+    <div class="deliverables-box">
+      <div class="deliverables-tag">ACESSO IMEDIATO</div>
+
+      <img src="images/mockup-trilhos-natalinos-1080.webp" srcset="images/mockup-trilhos-natalinos-480.webp 480w, images/mockup-trilhos-natalinos-720.webp 720w, images/mockup-trilhos-natalinos-1080.webp 1080w" sizes="(max-width: 640px) calc(100vw - 48px), 460px" alt="Coleção completa de trilhos de crochê de Natal com os quatro bônus" class="kit-product-img kit-product-img--deliverables" width="1080" height="1080" loading="lazy" decoding="async" draggable="false">
+
+      <ul class="deliverables-list">
+        <li><svg class="check-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"></path></svg>20 receitas completas de trilhos de crochê Natalinos</li>
+        <li><svg class="check-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"></path></svg>Gráficos com explicação escrita ponto a ponto</li>
+        <li><svg class="check-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"></path></svg>Modelos variados: bicos-de-papagaio, folhas de azevinho com frutinhos, estrelas, sinos e ramos de pinheiro</li>
+        <li><svg class="check-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"></path></svg>Sugestão de cores em tons natalinos: vermelho, verde-pinheiro, dourado, branco e creme</li>
+        <li><svg class="check-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"></path></svg>Projetos do iniciante ao avançado</li>
+        <li><svg class="check-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"></path></svg>Acesso imediato direto no seu WhatsApp</li>
+      </ul>
+
+      <p class="deliverables-more">E MUITO MAIS…</p>
+      <p class="deliverables-footer">Escolha o modelo, pegue a agulha e comece hoje. Ainda dá tempo de deixar sua mesa pronta para a ceia.</p>
+    </div>
+
+    <div class="bonus-transition">
+      <h3>E NÃO PARA POR AÍ…<br><strong>NA COLEÇÃO COMPLETA, VOCÊ TAMBÉM RECEBE 4 BÔNUS EXCLUSIVOS</strong></h3>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 8. BÔNUS ===== -->
+<section class="bonus-section">
+  <div class="container">
+    <div class="bonus-tag-wrap"><span class="bonus-tag">BÔNUS EXCLUSIVOS INCLUÍDOS</span></div>
+    <div class="bonus-grid">
+
+      <div class="bonus-card">
+        <div class="bonus-img-placeholder">
+          <img class="bonus-img" width="760" height="760" draggable="false" decoding="async" loading="lazy" src="images/bonus1.webp" srcset="images/bonus1-480.webp 480w, images/bonus1.webp 760w" sizes="(max-width: 640px) calc(100vw - 48px), 360px" alt="Bônus 1 — Guia de Pontos Básicos para Iniciantes">
+        </div>
+        <div class="bonus-content">
+          <div class="bonus-number">🎁 BÔNUS 1</div>
+          <h4 class="bonus-title">GUIA DE PONTOS BÁSICOS PARA INICIANTES</h4>
+          <p class="bonus-desc">Aprenda como ler o gráfico e fazer os pontos das flores, folhas e estrelas e começar seu primeiro trilho sem se perder.</p>
+          <div class="bonus-value"><span class="riscado">VALOR: R$ 12,90</span><span class="gratis">GRÁTIS</span></div>
+        </div>
+      </div>
+
+      <div class="bonus-card">
+        <div class="bonus-img-placeholder">
+          <img class="bonus-img" width="760" height="760" draggable="false" decoding="async" loading="lazy" src="images/bonus2.webp" srcset="images/bonus2-480.webp 480w, images/bonus2.webp 760w" sizes="(max-width: 640px) calc(100vw - 48px), 360px" alt="Bônus 2 — Guia de Linhas e Combinação de Cores Natalinas">
+        </div>
+        <div class="bonus-content">
+          <div class="bonus-number">🎁 BÔNUS 2</div>
+          <h4 class="bonus-title">GUIA DE LINHAS E COMBINAÇÃO DE CORES NATALINAS</h4>
+          <p class="bonus-desc">Descubra qual linha e agulha usar e como combinar vermelho, verde e dourado (inclusive linhas com brilho) para o trilho ficar elegante na sua mesa</p>
+          <div class="bonus-value"><span class="riscado">VALOR: R$ 9,90</span><span class="gratis">GRÁTIS</span></div>
+        </div>
+      </div>
+
+      <div class="bonus-card">
+        <div class="bonus-img-placeholder">
+          <img class="bonus-img" width="760" height="760" draggable="false" decoding="async" loading="lazy" src="images/bonus3.webp" srcset="images/bonus3-480.webp 480w, images/bonus3.webp 760w" sizes="(max-width: 640px) calc(100vw - 48px), 360px" alt="Bônus 3 — Pack de Enfeites Natalinos">
+        </div>
+        <div class="bonus-content">
+          <div class="bonus-number">🎁 BÔNUS 3</div>
+          <h4 class="bonus-title">PACK DE ENFEITES NATALINOS</h4>
+          <p class="bonus-desc">Receitas extras de estrelas, sinos, azevinhos e flores natalinas para usar em porta-copos, guardanapos, jogos americanos, guirlandas e enfeites de árvore.</p>
+          <div class="bonus-value"><span class="riscado">VALOR: R$ 14,90</span><span class="gratis">GRÁTIS</span></div>
+        </div>
+      </div>
+
+      <div class="bonus-card">
+        <div class="bonus-img-placeholder">
+          <img class="bonus-img" width="760" height="760" draggable="false" decoding="async" loading="lazy" src="images/bonus4.webp" srcset="images/bonus4-480.webp 480w, images/bonus4.webp 760w" sizes="(max-width: 640px) calc(100vw - 48px), 360px" alt="Bônus 4 — Guia de União e Acabamento">
+        </div>
+        <div class="bonus-content">
+          <div class="bonus-number">🎁 BÔNUS 4</div>
+          <h4 class="bonus-title">GUIA DE UNIÃO E ACABAMENTO</h4>
+          <p class="bonus-desc">Aprenda a juntar as peças sem deixar costura aparente, deixar o trilho reto e bem formado, lavar e guardar sem deformar para usar em todos os Natais.</p>
+          <div class="bonus-value"><span class="riscado">VALOR: R$ 12,90</span><span class="gratis">GRÁTIS</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 9. PLANOS ===== -->
+<section class="plans-section" id="planos">
+  <div class="plans-header">
+    <div class="promo-tag-red">⏰ ÚLTIMA CHANCE: OFERTA TERMINA HOJE</div>
+    <h2 class="section-title">GARANTA SUA COLEÇÃO<br>COMPLETA DE NATAL</h2>
+    <hr class="plans-divider">
+  </div>
+
+  <div class="container plans-container">
+    <div class="plans-grid">
+
+      <!-- COMPLETO -->
+      <div class="plan-card plan-complete">
+        <div class="tag-bestseller">⚡ OFERTA ESPECIAL</div>
+        <h3 class="plan-title">COLEÇÃO COMPLETA + BÔNUS</h3>
+
+        <div class="plan-img-frame">
+          <img src="images/mockup-trilhos-natalinos-1080.webp" srcset="images/mockup-trilhos-natalinos-480.webp 480w, images/mockup-trilhos-natalinos-720.webp 720w, images/mockup-trilhos-natalinos-1080.webp 1080w" sizes="(max-width: 640px) calc(100vw - 48px), 400px" alt="Coleção Completa de trilhos de crochê de Natal com os quatro bônus" class="plan-img kit-product-img" width="1080" height="1080" loading="lazy" decoding="async" draggable="false">
+        </div>
+
+        <div class="tag-2x">⚡ 20 receitas + pack extra de enfeites + 4 bônus</div>
+
+        <ul class="plan-features">
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="check-icon-sm"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>Todas as 20 receitas da coleção</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="check-icon-sm"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>Material organizado + Acesso imediato</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="check-icon-sm"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>Atualizações incluídas</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="check-icon-sm"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>Suporte Exclusivo no Whatsapp</li>
+          <li class="gift-item">🎁 Bônus 1: Guia de Pontos Básicos para Iniciantes</li>
+          <li class="gift-item">🎁 Bônus 2: Guia de Linhas e Combinação de Cores Natalinas</li>
+          <li class="gift-item">🎁 Bônus 3: Pack de Enfeites Natalinos</li>
+          <li class="gift-item">🎁 Bônus 4: Guia de União e Acabamento</li>
+        </ul>
+
+        <div class="plan-price-box">
+          <div class="price-old">VALOR TOTAL: R$ 87,00</div>
+          <div class="price-today">Hoje Pagamento Único</div>
+          <div class="price-wrap price-wrap--complete">
+            <svg class="animated-circle" viewBox="0 0 100 50" preserveAspectRatio="none">
+              <path class="circle-path" pathLength="1" d="M 50,5 C 20,5 5,15 5,25 C 5,35 20,45 50,45 C 80,45 95,35 95,25 C 95,15 80,5 50,5" fill="none" stroke="#C0392B" stroke-width="2" stroke-linecap="round"></path>
+              <path class="circle-path-delay" pathLength="1" d="M 45,3 C 15,3 1,13 3,24 C 5,35 25,47 55,47 C 85,47 97,35 93,24 C 89,13 75,6 50,5" fill="none" stroke="#C0392B" stroke-width="1.2" stroke-linecap="round" opacity="0.6"></path>
+            </svg>
+            <h4 class="price-current">R$ 19,90</h4>
+          </div>
+          <div class="price-installments">Ou <strong>3x de R$ 7,25</strong> no cartão</div>
+        </div>
+
+        <a href="https://pay.wiapy.com/ORQAABfE4Qj7" class="plan-btn btn-complete" target="_blank" rel="noopener">QUERO A COLEÇÃO COMPLETA</a>
+
+        <div class="complete-price-notice">
+          <p class="complete-price-notice-title">Último dia com desconto na<br>Coleção Completa</p>
+          <p>A partir de <strong id="data-ajuste-preco">19 de novembro</strong>, o preço<br>será ajustado.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 10. GARANTIA ===== -->
+<section class="guarantee-section">
+  <div class="container guarantee-container">
+    <div class="guarantee-img-col">
+      <img src="images/garantia-30-dias.webp" alt="Selo de garantia incondicional de 30 dias" class="guarantee-seal" width="400" height="339" loading="lazy" decoding="async">
+    </div>
+    <div class="guarantee-content">
+      <h2 class="guarantee-title">Garantia Incondicional de 30 Dias</h2>
+      <p><strong>Confiamos tanto no nosso material</strong> que você tem 30 dias completos para testar tudo sem nenhum risco.</p>
+      <p>Se por qualquer motivo você não ficar satisfeita, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia, sem enrolação.</p>
+      <p class="guarantee-risk">O risco é todo nosso!</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 11. FAQ ===== -->
+<section class="faq-section">
+  <div class="container">
+    <h2 class="section-title faq-title">PERGUNTAS FREQUENTES</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">O que é um trilho de crochê de Natal?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>É um caminho de mesa feito em crochê, montado com flores, folhas, estrelas e raminhos natalinos unidos peça por peça. Fica lindo na mesa da ceia, no aparador ou na mesa de centro durante todo o mês de dezembro.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Preciso ter experiência em crochê?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Não. A coleção tem projetos do iniciante ao avançado, e o Guia de Pontos Básicos ensina desde como ler o gráfico.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">As receitas são físicas?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Não. É um material digital com receitas, gráficos e explicações escritas, que você recebe na hora.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Que linha eu preciso usar?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Cada receita indica a linha e a agulha ideais, com sugestão de cores natalinas. O Guia de Linhas e Combinação de Cores ajuda você a escolher.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Preciso imprimir?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Não é obrigatório. Você pode acompanhar pelo celular, tablet ou computador, ou imprimir se preferir ter as receitas no papel.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Como eu recebo o material?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Logo após a confirmação do pagamento, o acesso chega direto no seu WhatsApp.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Posso vender as peças que eu fizer?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Sim. As peças que você produzir com as suas mãos podem ser vendidas à vontade. O que não é permitido é revender ou repassar os arquivos digitais.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Por quanto tempo tenho acesso?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>O acesso é seu para sempre, e você pode voltar às receitas em todos os Natais.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">E se eu não gostar?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Você tem 30 dias de garantia incondicional. Se não ficar satisfeita, devolvemos 100% do seu dinheiro.</p></div>
+      </div>
+    </div>
+
+    <div class="cta-container">
+      <a href="#planos" class="cta-button">QUERO COMEÇAR AGORA</a>
+      <p class="cta-microcopy">ACESSO IMEDIATO • GARANTIA DE 30 DIAS</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 12. FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <p>© <span id="ano-atual">2026</span> — Todos os direitos reservados.</p>
+    <p class="footer-disclaimer">Este produto é um material digital com receitas e gráficos de crochê. Os resultados dependem da dedicação e do capricho de cada pessoa na execução. Não é permitida a revenda ou redistribuição dos arquivos digitais.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Datas dinâmicas
+  var meses = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+  var hoje = new Date();
+  var amanha = new Date(hoje.getTime() + 86400000);
+
+  var elHoje = document.getElementById('data-atual');
+  if (elHoje) elHoje.textContent = hoje.getDate() + ' DE ' + meses[hoje.getMonth()].toUpperCase();
+
+  var elAjuste = document.getElementById('data-ajuste-preco');
+  if (elAjuste) elAjuste.textContent = amanha.getDate() + ' de ' + meses[amanha.getMonth()];
+
+  var elAno = document.getElementById('ano-atual');
+  if (elAno) elAno.textContent = hoje.getFullYear();
+
+  // Rolagem contínua com deslize nativo no celular
+  document.querySelectorAll('.carousel-container').forEach(function(carrossel){
+    var trilha = carrossel.firstElementChild;
+    var primeira = trilha.firstElementChild;
+    var quantidade = trilha.children.length / 2;
+    var copia = trilha.children[quantidade];
+    var originais = Array.from(trilha.children).slice(0, quantidade);
+
+    function preencherFaixa(){
+      var volta = copia.offsetLeft - primeira.offsetLeft;
+      if (volta <= 0) return;
+      while (carrossel.scrollWidth - carrossel.clientWidth < volta){
+        originais.forEach(function(item){
+          var repeticao = item.cloneNode(true);
+          repeticao.setAttribute('aria-hidden', 'true');
+          trilha.appendChild(repeticao);
+        });
+      }
+    }
+    preencherFaixa();
+    window.addEventListener('resize', preencherFaixa);
+    var reverso = trilha.classList.contains('track-reverse');
+    var duracao = reverso ? 40000 : 35000;
+    var anterior = performance.now();
+    var fracao = 1;
+    var tocando = false;
+
+    carrossel.addEventListener('touchstart', function(){ tocando = true; }, {passive:true});
+    function atualizarToque(evento){ tocando = evento.touches.length > 0; }
+    carrossel.addEventListener('touchend', atualizarToque, {passive:true});
+    carrossel.addEventListener('touchcancel', atualizarToque, {passive:true});
+
+    function rolar(agora){
+      var intervalo = Math.min(agora - anterior, 50);
+      anterior = agora;
+      if (!tocando){
+        var volta = copia.offsetLeft - primeira.offsetLeft;
+        if (volta > 0 && carrossel.scrollWidth - carrossel.clientWidth >= volta){
+          fracao += intervalo * volta / duracao;
+          var passo = Math.floor(fracao);
+          fracao -= passo;
+          if (passo){
+            var destino = carrossel.scrollLeft + (reverso ? -passo : passo);
+            carrossel.scrollTo({left: ((destino % volta) + volta) % volta, behavior:'instant'});
+          }
+        }
+      }
+      requestAnimationFrame(rolar);
+    }
+    requestAnimationFrame(rolar);
+  });
+
+  // FAQ sanfona
+  document.querySelectorAll('.faq-question').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var item = btn.parentElement;
+      var aberto = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(function(i){
+        i.classList.remove('open');
+        i.querySelector('.faq-question').setAttribute('aria-expanded','false');
+      });
+      if (!aberto){
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+
+  // Círculo desenhado no preço quando entra na tela
+  var circulo = document.querySelector('.price-wrap--complete');
+  if (circulo){
+    if ('IntersectionObserver' in window){
+      var obs = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          if (e.isIntersecting){
+            e.target.classList.add('draw-active');
+            obs.unobserve(e.target);
+          }
+        });
+      }, {threshold: 0.5});
+      obs.observe(circulo);
+    } else {
+      circulo.classList.add('draw-active');
+    }
+  }
+})();
+</script>
+
+
+
+
+</body></html>
